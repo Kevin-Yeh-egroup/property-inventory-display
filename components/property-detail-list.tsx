@@ -29,7 +29,7 @@ export default function PropertyDetailList({ properties }: PropertyDetailListPro
             <TableRow>
               <TableHead className="min-w-[80px] whitespace-nowrap">財產別</TableHead>
               <TableHead className="min-w-[80px] whitespace-nowrap">分類</TableHead>
-              <TableHead className="min-w-[120px] whitespace-nowrap">房屋持份比例<br/>(汽缸容量)</TableHead>
+              <TableHead className="min-w-[120px] whitespace-nowrap">房地持份比例<br/>(汽缸容量)</TableHead>
               <TableHead className="min-w-[100px] whitespace-nowrap">房地面積<br/>(平方公尺)</TableHead>
               <TableHead className="min-w-[120px] whitespace-nowrap">房地現值金額</TableHead>
               <TableHead className="min-w-[100px] whitespace-nowrap">所屬年月</TableHead>
@@ -37,8 +37,6 @@ export default function PropertyDetailList({ properties }: PropertyDetailListPro
               <TableHead className="min-w-[80px] whitespace-nowrap">地目<br/>(車年)</TableHead>
               <TableHead className="min-w-[80px] whitespace-nowrap">縣市別</TableHead>
               <TableHead className="min-w-[150px] whitespace-nowrap">房屋座落<br/>(地段名稱/BAN名稱)</TableHead>
-              <TableHead className="min-w-[80px] whitespace-nowrap">持分分子</TableHead>
-              <TableHead className="min-w-[80px] whitespace-nowrap">持分分母</TableHead>
               <TableHead className="min-w-[80px] whitespace-nowrap">信託註記</TableHead>
               <TableHead className="min-w-[100px] whitespace-nowrap">登記時間</TableHead>
             </TableRow>
@@ -46,7 +44,7 @@ export default function PropertyDetailList({ properties }: PropertyDetailListPro
           <TableBody>
             {properties.length === 0 ? (
               <TableRow>
-                <TableCell colSpan={14} className="text-center text-muted-foreground py-8">
+                <TableCell colSpan={12} className="text-center text-muted-foreground py-8">
                   尚無財產資料
                 </TableCell>
               </TableRow>
@@ -91,8 +89,6 @@ export default function PropertyDetailList({ properties }: PropertyDetailListPro
                   <TableCell className="whitespace-nowrap">{property.landType || '-'}</TableCell>
                   <TableCell className="whitespace-nowrap">{property.city || '-'}</TableCell>
                   <TableCell className="whitespace-nowrap">{property.location || '-'}</TableCell>
-                  <TableCell className="whitespace-nowrap">{property.numerator || '-'}</TableCell>
-                  <TableCell className="whitespace-nowrap">{property.denominator || '-'}</TableCell>
                   <TableCell className="whitespace-nowrap">{property.trustNote || '-'}</TableCell>
                   <TableCell className="whitespace-nowrap">{property.registrationTime || '-'}</TableCell>
                 </TableRow>

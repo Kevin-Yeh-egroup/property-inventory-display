@@ -795,7 +795,7 @@ function PropertyDetailList({ properties }) {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                         className: "min-w-[120px] whitespace-nowrap",
                                         children: [
-                                            "房屋持份比例",
+                                            "房地持份比例",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/property-detail-list.tsx",
                                                 lineNumber: 32,
@@ -890,26 +890,10 @@ function PropertyDetailList({ properties }) {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                         className: "min-w-[80px] whitespace-nowrap",
-                                        children: "持分分子"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/property-detail-list.tsx",
-                                        lineNumber: 40,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
-                                        className: "min-w-[80px] whitespace-nowrap",
-                                        children: "持分分母"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/property-detail-list.tsx",
-                                        lineNumber: 41,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
-                                        className: "min-w-[80px] whitespace-nowrap",
                                         children: "信託註記"
                                     }, void 0, false, {
                                         fileName: "[project]/components/property-detail-list.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -917,7 +901,7 @@ function PropertyDetailList({ properties }) {
                                         children: "登記時間"
                                     }, void 0, false, {
                                         fileName: "[project]/components/property-detail-list.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 41,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -934,17 +918,17 @@ function PropertyDetailList({ properties }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableBody"], {
                             children: properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableRow"], {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
-                                    colSpan: 14,
+                                    colSpan: 12,
                                     className: "text-center text-muted-foreground py-8",
                                     children: "尚無財產資料"
                                 }, void 0, false, {
                                     fileName: "[project]/components/property-detail-list.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 47,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/property-detail-list.tsx",
-                                lineNumber: 48,
+                                lineNumber: 46,
                                 columnNumber: 15
                             }, this) : properties.map((property, index)=>{
                                 // 使用資料中的分類，如果沒有則根據財產別判斷
@@ -959,7 +943,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.propertyType || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 70,
+                                            lineNumber: 68,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -967,7 +951,7 @@ function PropertyDetailList({ properties }) {
                                             children: category
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 69,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -979,7 +963,7 @@ function PropertyDetailList({ properties }) {
                                                         children: property.ownershipRatio || '-'
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/property-detail-list.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 72,
                                                         columnNumber: 23
                                                     }, this),
                                                     hasOwnership && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -990,12 +974,12 @@ function PropertyDetailList({ properties }) {
                                                                     className: "w-4 h-4 text-muted-foreground cursor-help"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/property-detail-list.tsx",
-                                                                    lineNumber: 78,
+                                                                    lineNumber: 76,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/property-detail-list.tsx",
-                                                                lineNumber: 77,
+                                                                lineNumber: 75,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TooltipContent"], {
@@ -1003,29 +987,29 @@ function PropertyDetailList({ properties }) {
                                                                     children: ownershipInfo
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/property-detail-list.tsx",
-                                                                    lineNumber: 81,
+                                                                    lineNumber: 79,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/property-detail-list.tsx",
-                                                                lineNumber: 80,
+                                                                lineNumber: 78,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/property-detail-list.tsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 74,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/property-detail-list.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 71,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 70,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1033,7 +1017,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.area || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 85,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1041,7 +1025,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.currentValue || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 86,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1049,7 +1033,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.period || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 87,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1057,7 +1041,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.owner || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 88,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1065,7 +1049,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.landType || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 89,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1073,7 +1057,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.city || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 90,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1081,23 +1065,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.location || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 93,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
-                                            className: "whitespace-nowrap",
-                                            children: property.numerator || '-'
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
-                                            className: "whitespace-nowrap",
-                                            children: property.denominator || '-'
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1105,7 +1073,7 @@ function PropertyDetailList({ properties }) {
                                             children: property.trustNote || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 92,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1113,19 +1081,19 @@ function PropertyDetailList({ properties }) {
                                             children: property.registrationTime || '-'
                                         }, void 0, false, {
                                             fileName: "[project]/components/property-detail-list.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 93,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/property-detail-list.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 67,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/property-detail-list.tsx",
-                            lineNumber: 46,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1167,7 +1135,7 @@ function exportToCSV(properties, filename = '財產清冊') {
     const headers = [
         '財產別',
         '分類',
-        '房屋持份比例(汽缸容量)',
+        '房地持份比例(汽缸容量)',
         '房地面積(平方公尺)',
         '房地現值金額',
         '所屬年月',
@@ -1175,8 +1143,6 @@ function exportToCSV(properties, filename = '財產清冊') {
         '地目(車年)',
         '縣市別',
         '房屋座落(地段名稱/BAN名稱)',
-        '持分分子',
-        '持分分母',
         '信託註記',
         '登記時間'
     ];
@@ -1195,8 +1161,6 @@ function exportToCSV(properties, filename = '財產清冊') {
             property.landType || '',
             property.city || '',
             property.location || '',
-            property.numerator || '',
-            property.denominator || '',
             property.trustNote || '',
             property.registrationTime || ''
         ];
@@ -1233,7 +1197,7 @@ function exportToXLSX(properties, filename = '財產清冊') {
     const headers = [
         '財產別',
         '分類',
-        '房屋持份比例(汽缸容量)',
+        '房地持份比例(汽缸容量)',
         '房地面積(平方公尺)',
         '房地現值金額',
         '所屬年月',
@@ -1241,8 +1205,6 @@ function exportToXLSX(properties, filename = '財產清冊') {
         '地目(車年)',
         '縣市別',
         '房屋座落(地段名稱/BAN名稱)',
-        '持分分子',
-        '持分分母',
         '信託註記',
         '登記時間'
     ];
@@ -1261,8 +1223,6 @@ function exportToXLSX(properties, filename = '財產清冊') {
             property.landType || '',
             property.city || '',
             property.location || '',
-            property.numerator || '',
-            property.denominator || '',
             property.trustNote || '',
             property.registrationTime || ''
         ];
@@ -1307,12 +1267,6 @@ function exportToXLSX(properties, filename = '財產清冊') {
         },
         {
             wch: 25
-        },
-        {
-            wch: 10
-        },
-        {
-            wch: 10
         },
         {
             wch: 10

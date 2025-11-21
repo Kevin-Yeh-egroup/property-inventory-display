@@ -4,7 +4,7 @@ export interface Property {
   propertyType: string;
   // 分類（土地、房屋、車輛）
   category?: string;
-  // 房屋持份比例(汽缸容量)
+  // 房地持份比例(汽缸容量)
   ownershipRatio?: string;
   // 房地面積(平方公尺)
   area?: string;

@@ -14,7 +14,7 @@ export function exportToCSV(properties: Property[], filename: string = '財產�
   const headers = [
     '財產別',
     '分類',
-    '房屋持份比例(汽缸容量)',
+    '房地持份比例(汽缸容量)',
     '房地面積(平方公尺)',
     '房地現值金額',
     '所屬年月',
@@ -22,8 +22,6 @@ export function exportToCSV(properties: Property[], filename: string = '財產�
     '地目(車年)',
     '縣市別',
     '房屋座落(地段名稱/BAN名稱)',
-    '持分分子',
-    '持分分母',
     '信託註記',
     '登記時間',
   ];
@@ -48,8 +46,6 @@ export function exportToCSV(properties: Property[], filename: string = '財產�
       property.landType || '',
       property.city || '',
       property.location || '',
-      property.numerator || '',
-      property.denominator || '',
       property.trustNote || '',
       property.registrationTime || '',
     ];
@@ -90,7 +86,7 @@ export function exportToXLSX(properties: Property[], filename: string = '財產�
   const headers = [
     '財產別',
     '分類',
-    '房屋持份比例(汽缸容量)',
+    '房地持份比例(汽缸容量)',
     '房地面積(平方公尺)',
     '房地現值金額',
     '所屬年月',
@@ -98,8 +94,6 @@ export function exportToXLSX(properties: Property[], filename: string = '財產�
     '地目(車年)',
     '縣市別',
     '房屋座落(地段名稱/BAN名稱)',
-    '持分分子',
-    '持分分母',
     '信託註記',
     '登記時間',
   ];
@@ -124,8 +118,6 @@ export function exportToXLSX(properties: Property[], filename: string = '財產�
       property.landType || '',
       property.city || '',
       property.location || '',
-      property.numerator || '',
-      property.denominator || '',
       property.trustNote || '',
       property.registrationTime || '',
     ];
@@ -144,7 +136,7 @@ export function exportToXLSX(properties: Property[], filename: string = '財產�
   const colWidths = [
     { wch: 10 }, // 財產別
     { wch: 10 }, // 分類
-    { wch: 20 }, // 房屋持份比例(汽缸容量)
+    { wch: 20 }, // 房地持份比例(汽缸容量)
     { wch: 15 }, // 房地面積(平方公尺)
     { wch: 18 }, // 房地現值金額
     { wch: 12 }, // 所屬年月
@@ -152,8 +144,6 @@ export function exportToXLSX(properties: Property[], filename: string = '財產�
     { wch: 12 }, // 地目(車年)
     { wch: 10 }, // 縣市別
     { wch: 25 }, // 房屋座落(地段名稱/BAN名稱)
-    { wch: 10 }, // 持分分子
-    { wch: 10 }, // 持分分母
     { wch: 10 }, // 信託註記
     { wch: 12 }, // 登記時間
   ];
